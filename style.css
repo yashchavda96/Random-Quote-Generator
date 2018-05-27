@@ -1,0 +1,69 @@
+body {
+	font-family: 'Oxygen', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+.card {
+	margin: 10% auto 0 auto;
+	width: 60%;
+	padding: 18px;
+	border-radius: 4px;
+	color: #fff;
+	background-color: #fff;
+}
+.creator {
+	text-align: center;
+	margin: 16px auto;
+	color: #fff;
+	text-shadow: 1px 1px #000;
+}
+.creator a, a:hover {
+	text-decoration: none;
+	color: #fff;
+	text-shadow: 1px 1px #000;
+}
+.my-btn {
+	padding: 10px 12px;
+	border-width: 0px;
+	border-color: #fff;
+	border-radius: 4px;
+	background-color: #fff;
+	color: #fff;
+	margin: 4px;
+	outline: none;
+}
+.quote {
+	width: 100%;
+	min-height: 120px;
+	padding: 0px 4px 16px 0px;
+	margin-bottom: 16px;
+}
+.click-buttons {
+	width: 100%;
+	margin-top: 16px;
+	padding-top: 24px;
+}
+.my-btn:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+.my-btn:focus{
+	border-color:#fff;
+}
+.my-btn:active {
+	border-color:#fff;
+}
+#quote-author {
+	float: right;
+	font-size: 16px;
+}
+.quote {
+  transition: color 1s linear;
+  -webkit-transition: color 1s linear;
+  -moz-transition: color 1s linear;
+}
+body, button {
+  transition: background-color 1s linear;
+  -webkit-transition: background-color 1s linear;
+  -moz-transition: background-color 1s linear;
+}
